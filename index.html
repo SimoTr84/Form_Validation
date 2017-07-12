@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js" charset="utf-8"></script>
+  <script src="main.js" charset="utf-8"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.css">
+
+</head>
+<body>
+
+  <form>
+    <input type="radio" id="type_person" name="type" value="person" checked/>
+    <input type="radio" id="type_company" name="type" value="company"/>
+    <input type="text" id="first_name" name="first_name" value="John"/>
+    <input type="text" id="last_name" name="last_name" value="Doe"/>
+    <input type="text" id="email" name="email" value="john@example.com"/>
+    <input type="text" id="company_name" name="company_name" value=""/>
+    <input type="text" id="phone" name="phone" value="234-567-890"/>
+  </form>
+<br> <br>
+<hr>
+    your function should return true, while given the following content:
+<hr>
+<br> <br> 
+  <form>
+    <input type="radio" id="type_person" name="type" value="person"/>
+    <input type="radio" id="type_company" name="type" value="company" checked/>
+    <input type="text" id="first_name" name="first_name" value="John"/>
+    <input type="text" id="last_name" name="last_name" value="Doe"/>
+    <input type="text" id="email" name="email" value="john@example.com"/>
+    <input type="text" id="company_name" name="company_name" value="ACME"/>
+    <input type="text" id="phone" name="phone" value="12-3"/>
+  </form>
+
+</body>
+
+</html>
